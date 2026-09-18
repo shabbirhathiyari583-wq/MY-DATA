@@ -50,24 +50,17 @@ function Skills() {
 
           {skills.map((skill, index) => (
             <div className="col-md-6 col-lg" key={index}>
-
               <div className="skill-card">
-
                 <div className="skill-icon">
                   {skill.icon}
                 </div>
-
                 <h3>{skill.name}</h3>
-
                 <p>{skill.description}</p>
-
               </div>
-
             </div>
           ))}
 
         </div>
-
       </div>
     </section>
   );

@@ -70,9 +70,7 @@ function About() {
                   <p>Year Learning</p>
                 </div>
               </div>
-
             </div>
-
           </div>
 
           <div className="col-lg-6">
@@ -123,13 +121,9 @@ function About() {
                   </span>
                   <strong>Web Development Course</strong>
                 </div>
-
               </div>
-
             </div>
-
           </div>
-
         </div>
 
       </div>

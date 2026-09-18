@@ -12,7 +12,6 @@ function Hero() {
       <div className="container">
         <div className="row align-items-center">
 
-          {/* Left Content */}
           <div className="col-lg-6 hero-content">
 
             <p className="hero-intro">
@@ -34,7 +33,6 @@ function Hero() {
               web experiences.
             </p>
 
-            {/* Buttons */}
             <div className="hero-buttons">
 
               <a href="#projects" className="primary-btn">
@@ -49,7 +47,6 @@ function Hero() {
 
             </div>
 
-            {/* Social Icons */}
             <div className="social-links">
 
               <a href="#" aria-label="GitHub">
@@ -68,26 +65,21 @@ function Hero() {
 
           </div>
 
-          {/* Right Visual */}
           <div className="col-lg-6">
             <div className="hero-visual">
 
-              {/* Code Icon */}
               <div className="code-card">
                 <FaCode />
               </div>
 
-              {/* Background Circle */}
               <div className="circle-shape"></div>
 
-              {/* Profile Placeholder */}
               <div className="hero-profile">
                 <div className="profile-placeholder">
                   <img src="./profile.png" alt="" />
                 </div>
               </div>
 
-              {/* Floating Card */}
               <div className="floating-card">
                 <strong>Code</strong>
                 <span>Build • Grow</span>

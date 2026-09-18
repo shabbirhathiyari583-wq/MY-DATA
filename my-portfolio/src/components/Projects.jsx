@@ -47,11 +47,8 @@ function Projects() {
 
           {projects.map((project, index) => (
             <div className="col-lg-4 col-md-6" key={index}>
-
               <div className="project-card">
-
                 <div className="project-top">
-
                   <div className="project-icon">
                     {project.icon}
                   </div>
@@ -61,9 +58,7 @@ function Projects() {
                   </span>
 
                 </div>
-
                 <h3>{project.title}</h3>
-
                 <p>{project.description}</p>
 
                 <div className="project-tech">
@@ -81,11 +76,8 @@ function Projects() {
                     Live Demo
                     <FaExternalLinkAlt />
                   </a>
-
                 </div>
-
               </div>
-
             </div>
           ))}
 

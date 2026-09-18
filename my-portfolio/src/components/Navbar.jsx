@@ -3,7 +3,6 @@ function Navbar() {
     <nav className="navbar navbar-expand-lg fixed-top">
       <div className="container">
 
-        {/* Logo + Name */}
         <a className="navbar-brand d-flex align-items-center" href="#home">
           <div className="logo-box">SH</div>
 
@@ -13,7 +12,6 @@ function Navbar() {
           </div>
         </a>
 
-        {/* Mobile Menu Button */}
         <button
           className="navbar-toggler"
           type="button"
@@ -26,7 +24,6 @@ function Navbar() {
           <span className="navbar-toggler-icon"></span>
         </button>
 
-        {/* Navigation */}
         <div className="collapse navbar-collapse" id="portfolioNavbar">
 
           <ul className="navbar-nav mx-auto">
