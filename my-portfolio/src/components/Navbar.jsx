@@ -12,14 +12,7 @@ function Navbar() {
           </div>
         </a>
 
-        <button
-          className="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#portfolioNavbar"
-          aria-controls="portfolioNavbar"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
+        <button className="navbar-toggler"type="button"data-bs-toggle="collapse"data-bs-target="#portfolioNavbar"aria-controls="portfolioNavbar"aria-expanded="false"aria-label="Toggle navigation"
         >
           <span className="navbar-toggler-icon"></span>
         </button>
@@ -67,11 +60,10 @@ function Navbar() {
           </ul>
 
           <a href="#contact" className="resume-btn">
-            ↓ &nbsp; Download Resume
+            Contact Me
           </a>
 
         </div>
-
       </div>
     </nav>
   )
